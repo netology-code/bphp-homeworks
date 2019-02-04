@@ -5,9 +5,7 @@
 1. [Регистрация](./registration/)
 2. [Стандартизатор имени](./name-standart/)
 
-## Дополнительные задания
-* http://acmp.ru/index.asp?main=task&id_task=44
-* http://acmp.ru/index.asp?main=task&id_task=95
+[Дополнительные задания](./additional)
 
 Все задачи обязательны к выполнению. Присылать на проверку можно только сразу все две задачи.
 
