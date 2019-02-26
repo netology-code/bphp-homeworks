@@ -2,9 +2,9 @@
 
 ## Блок 1. Базовый синтаксис. PHP в HTML и HTML средствами PHP
 
-### 1.1. [Знакомство с PHP](./intro-and-branching)
+### 1.1. [Знакомство с PHP](./1-intro-and-branching)
 
-### 1.2. [Формы и строки](./strings-and-forms)
+### 1.2. [Формы и строки](./2-strings-and-forms)
 
 ### 1.3. Массивы и циклы
 
