@@ -11,50 +11,56 @@
 ---
 
 ## Зайдите на хостинг [https://www.000webhost.com](https://www.000webhost.com) и зарегистрируйтесь.
-![](_img/readme/01.png)
+
+![](img/readme/01.png)
 
 ---
 
-![](_img/readme/02.png)
+![](img/readme/02.png)
 
 ---
 
-![](_img/readme/03.png)
+![](img/readme/03.png)
 
 *Подтверждение электронного адреса*
 
 ---
 
 ## Создайте свой сайт
-![](_img/readme/04.png)
+
+![](img/readme/04.png)
 
 ---
 
-![](_img/readme/05.png)
+![](img/readme/05.png)
 
 ---
 
 ## Запомните (сохраните) этот пароль, он потребуется для подключения по FTP
-![](_img/readme/06.png)
+
+![](img/readme/06.png)
 
 ---
 
 ## Откройте настройки
-![](_img/readme/07.png)
+
+![](img/readme/07.png)
 
 ---
 
-![](_img/readme/08.png)
+![](img/readme/08.png)
 
 ---
 
 ## Слева (1) вы можете видеть адрес Вашего сайта, справа (2) - настройки для подключения по FTP
-![](_img/readme/09.png)
+
+![](img/readme/09.png)
 
 ---
 
 ## Зайдите на официальный сайт проекта FileZilla ([https://filezilla-project.org](https://filezilla-project.org)) и скачайте дистрибутив.
-![](_img/readme/10.png)
+
+![](img/readme/10.png)
 
 ---
 
@@ -63,31 +69,36 @@
 ---
 
 ## Введите имя хоста, имя пользователя и пароль (1) и нажмите кнопку "Быстрое соединение" (2)
-![](_img/readme/11.png)
+
+![](img/readme/11.png)
 
 ---
 
 ## Выберите папку public_html. Не изменяйте файл `.htaccess`
-![](_img/readme/12.png)
+
+![](img/readme/12.png)
 
 ---
 
 ## Перенесите файлы на удаленный сайт в папку public_html, сохраняя структуру проекта. <br> Не нужно переносить папки git и папки, создаваемые средой разработки
-![](_img/readme/13.png)
+
+![](img/readme/13.png)
 
 ---
 
 ## Перейдите по ссылке (1) на Ваш сайт
-![](_img/readme/14.png)
+
+![](img/readme/14.png)
 
 ---
 
 ## Проект с одним выполненным заданием выглядит так:
-![](_img/readme/15.png)
+
+![](img/readme/15.png)
 
 ---
 
-![](_img/readme/16.jpg)
+![](img/readme/16.jpg)
 
 ---
 
