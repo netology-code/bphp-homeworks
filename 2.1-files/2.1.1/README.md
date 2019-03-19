@@ -31,7 +31,9 @@
 2. Преобразование массива в JSON: http://php.net/manual/ru/function.json-encode.php
 3. Сохранение текста в файл: http://php.net/manual/ru/function.file-put-contents.php
 
-## Дополнительно
+## Задача 1.*
+
+Необязательно для получения зачета.
 
  1. php скрипт должен принимать на входе любой csv файл. 
 
