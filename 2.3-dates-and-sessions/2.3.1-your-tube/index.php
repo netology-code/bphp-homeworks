@@ -4,7 +4,7 @@
      *
      * @return int
      */
-    function getViews(): int
+    function getViews()
     {
         $views = include 'views.php';
         return (int) $views;
@@ -15,7 +15,7 @@
      *
      * @param int $views
      */
-    function incrementViews(int $views)
+    function incrementViews($views)
     {
         $views++;
         $data = "<?php \r\nreturn {$views};";
@@ -65,7 +65,7 @@
         <br>
     </div>
     <div style="margin-top: 2px; border-top: 1px solid black;">
-        <b>Просмотров: <?=$views?> </b>
+        <b>Просмотров: <?php echo getViews()?> </b>
     </div>
 </div>
 <div style="width: 29%; display: inline-block; margin-bottom: 100%">
