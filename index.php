@@ -10,8 +10,8 @@
         <ul>
             <li>Занятие 1.1. Знакомство с PHP
                 <ul>
-                    <li><a href="1-intro-and-branching/1-type-of-variable">Задание 1.1.1</a></li>
-                    <li><a href="1-intro-and-branching/2-horns-and-hooves-greet-you-right">Задание 1.1.2</a></li>
+                    <li><a href="1.1-intro-and-branching/1.1.1">Задание 1.1.1</a></li>
+                    <li><a href="1.1-intro-and-branching/1.1.2">Задание 1.1.2</a></li>
                 </ul>
             </li>
         </ul>
@@ -19,3 +19,4 @@
 </ul>
 </body>
 </html>
+
