@@ -1,0 +1,43 @@
+{
+    "dataTitle": {
+        "last_guid": 16
+    },
+    "dataArray": {
+        "o5": {
+            "name": "Ilon",
+            "password": "dragon",
+            "email": "i-lon.not.musk@yoho.com",
+            "rate": 86
+        },
+        "o2": {
+            "name": "Zed",
+            "password": "blaze",
+            "email": "ew3wes@gnomail.com",
+            "rate": 81
+        },
+        "o8": {
+            "name": "Bruce",
+            "password": "ironmansucks",
+            "email": "bruce@waneint.com",
+            "rate": 92
+        },
+        "o9": {
+            "name": "Max",
+            "password": "password",
+            "email": "vvvladimirov@rkka.su",
+            "rate": 78
+        },
+        "o10": {
+            "name": "Ann",
+            "password": "elza12345",
+            "email": "coold@heart.aq",
+            "rate": 95
+        },
+        "o11": {
+            "name": "Irene",
+            "password": "iloveyou",
+            "email": "irene@myself.me",
+            "rate": 99
+        }
+    }
+}
