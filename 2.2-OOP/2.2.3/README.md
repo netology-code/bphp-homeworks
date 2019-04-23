@@ -30,7 +30,7 @@
 
 **В задании требуется:**
 1. Скопировать файлы из второго задания
-2. Добавить файлы JsonObjDataModel.php, DataRecordModel.php, user.json
+2. Добавить файлы [JsonObjDataModel.php](./source/JsonObjDataModel.php), [DataRecordModel.php](./source/DataRecordModel.php), [user.json](./source/user.json)
 3. В классе SystemConfig должна находиться константа `DATABASE_PATH = '/files/database/'
 4. В начале файла index.php должны быть подключены автозагрузка и настройки
 5. Описать класс `User`
