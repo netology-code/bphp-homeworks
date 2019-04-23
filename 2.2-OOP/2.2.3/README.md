@@ -4,17 +4,21 @@
 Работать с данными, которые находятся в файле не очень удобно. В связи с этим Ваш коллег реализовыал два класса:
 - `JsonObjDataModel`
 - `DataRecordModel`
+
 Вам требуется, используя эти классы, создать страницу отображения пользователей с формой добавления пользователей.
 
 ## Техническое задание
 Требуется реализовать класс `User` (дочерний от DataRecordModel)
 `User`:
 -  Свойства:
-   - `name` - public;
-   - `email` - public;
-   - `password` - public;
-   - `rate` - public;
-
+   - `name` - public, string;
+   - `email` - public, string;
+   - `password` - public, string;
+   - `rate` - public, int;
+-  Методы:
+   - `displaySortedList();` - public - вывод списка всех пользователей;
+   - `addUserFromForm()` - public - создание пользователя на основе данных, пришедших с формы;
+   
 ## Рекомендации по выполнению
 **Cтруктура проекта:** 
 - index.php
