@@ -1,9 +1,4 @@
 <?php
-/**
- * Author: avsudnichnikov (alsdew@ya.ru)
- * Date: 19.04.2019
- * Time: 17:19
- */
 
 class Singleton
 {

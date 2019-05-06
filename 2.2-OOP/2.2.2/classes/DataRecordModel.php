@@ -1,18 +1,14 @@
 <?php
-/**
- * Author: avsudnichnikov (alsdew@ya.ru)
- * Date: 17.04.2019
- * Time: 18:21
- */
 
 class DataRecordModel
 {
     private $filename;
     private $guid;
 
-    public function __construct()
+    public function __construct(string $guid = null)
     {
         $this->filename = strtolower(static::class) . 's';
+        $this->guid = $guid;
     }
 
     public function commit()

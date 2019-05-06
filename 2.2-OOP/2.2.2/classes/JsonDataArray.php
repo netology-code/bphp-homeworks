@@ -1,9 +1,4 @@
 <?php
-/**
- * Author: avsudnichnikov (alsdew@ya.ru)
- * Date: 18.04.2019
- * Time: 11:00
- */
 
 class JsonDataArray
 {
@@ -27,9 +22,7 @@ class JsonDataArray
 
     public function __construct($dataModelName = null)
     {
-        if (is_null($dataModelName)){
-            $dataModelName =  strtolower(static::class);
-        }
+        $dataModelName =  $dataModelName ?? strtolower(static::class);
         $this->file = new JsonFileAccessModel($dataModelName);
         $this->load();
     }
@@ -276,8 +269,7 @@ class JsonDataArray
         return $this;
     }
 
-    public
-    function limit($limit)
+    public function limit($limit)
     {
         $this->query = array_slice($this->query, 0, $limit);
         return $this;
