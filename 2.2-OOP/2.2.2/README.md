@@ -16,12 +16,12 @@
    - `password` - public, string;
    - `rate` - public, int;
 -  Методы:
-   - `displaySortedList();` - public - вывод списка всех пользователей;
+   - `addUserFromForm()` - public - добавление пользователя через форму;
 
 Требуется реализовать класс `Users` (дочерний от JsonDataArray)
 `Users`:
 -  Методы:
-   - `displaySortedList();` - public - вывод списка всех пользователей;
+   - `displaySortedList()` - public - вывод списка всех пользователей;
   
 ## Рекомендации по выполнению
 **Cтруктура проекта:** 
