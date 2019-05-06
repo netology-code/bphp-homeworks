@@ -110,6 +110,13 @@ class JsonDataArray
 
     public function changeObjByGuid($guid, $obj)
     {
+        if (!is_null($this->dataArray[$guid])){
+            foreach ($obj as $param => $value) {
+                $this->dataArray[$guid]->$param = $value;
+            }
+        } else {
+            throw new Error('object not exist');
+        }
         $this->dataArray[$guid] = $obj;
     }
 
@@ -263,6 +270,8 @@ class JsonDataArray
             if (!$direction_forward) {
                 $this->query = array_reverse($this->query);
             }
+        } else {
+            throw new Error('not ordered field');
         }
         return $this;
     }

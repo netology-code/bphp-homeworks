@@ -21,7 +21,7 @@ class DataRecordModel
         if (is_null($this->guid)){
             $this->guid = $data->add($this);
         } else {
-            $data->changeObjByGuid($this->guid,$this);
+            $data->changeObjByGuid($this->guid, $this);
         }
         $data->save();
     }
