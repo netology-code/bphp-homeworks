@@ -35,12 +35,12 @@
 2. В классе SystemConfig константа DATABASE_PATH должна отображать путь до директории с json-файлом.
 
 **В задании требуется:**
-1. Описать автозагрузку классов в файле autoload.php из директории classes с помощью функции `spl_autoload_register`(см. презентацию к лекции)
+1. Описать автозагрузку классов в файле autoload.php из директории classes с помощью функции `spl_autoload_register`(см. презентацию к лекции).
 2. Использовать файлы [Singleton.php](classes/Singleton.php), [SystemConfig.php](config/SystemConfig.php).
 3. В константу `DATABASE_PATH` класса `SystemConfig` прописать путь к директории с json-файлами.
-4. Подключить файлы autoload.php и SystemConfig.php в начале файла index.php (именно в этом порядке)
-5. В начале файла index.php должны быть подключены автозагрузка и настройки
-6. Реализовать класс JsonFileAccessModel
+4. Подключить файлы autoload.php и SystemConfig.php в начале файла index.php (именно в этом порядке).
+5. В начале файла index.php должны быть подключены автозагрузка и настройки.
+6. Реализовать класс JsonFileAccessModel.
 7. Проверить его работоспособность: создать файл с JSON-объектом, в файле index.php создать экземпляр  класса и вывести на экран результат загрузки (например, с помощью `print_r`), сохранить JSON-объект в файл.
 
 **Описание методов `JsonFileAccessModel`**
