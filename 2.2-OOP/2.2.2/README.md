@@ -2,26 +2,26 @@
 
 ## Легенда
 Работать с данными, которые находятся в файле не очень удобно. В связи с этим ваш коллега реализовал два класса:
-- `JsonDataArray` - для работы с мас
-- `DataRecordModel`
+- `JsonDataArray` - для работы с массивом данных, полученных из json-файла
+- `DataRecordModel` - для работы с одной записью, хранящейся в массиве данных, полученных из json-файла
 
 Вам требуется, используя эти классы, создать страницу отображения пользователей с формой добавления пользователей.
 
 ## Техническое задание
-Требуется реализовать класс `User` (дочерний от DataRecordModel)
-`User`:
--  Свойства:
-   - `name` - public, string;
-   - `email` - public, string;
-   - `password` - public, string;
-   - `rate` - public, int;
--  Методы:
-   - `addUserFromForm()` - public - добавление пользователя через форму;
+Требуется реализовать класс `User` (дочерний от DataRecordModel) и класс `Users` (дочерний от JsonDataArray)
 
-Требуется реализовать класс `Users` (дочерний от JsonDataArray)
+`User`:
+   -  Свойства:
+      - `name` - public, string;
+      - `email` - public, string;
+      - `password` - public, string;
+      - `rate` - public, int;
+   -  Методы:
+      - `addUserFromForm()` - public - добавление пользователя через форму;
+   
 `Users`:
--  Методы:
-   - `displaySortedList()` - public - вывод списка всех пользователей;
+   -  Методы:
+      - `displaySortedList()` - public - вывод списка всех пользователей;
   
 ## Рекомендации по выполнению
 **Cтруктура проекта:** 
