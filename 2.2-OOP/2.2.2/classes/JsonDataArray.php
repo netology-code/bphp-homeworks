@@ -1,11 +1,6 @@
 <?php
-/**
- * Author: avsudnichnikov (alsdew@ya.ru)
- * Date: 18.04.2019
- * Time: 11:00
- */
 
-class JsonObjDataModel
+class JsonDataArray
 {
     private $file;
     private $dataTitle;
@@ -25,8 +20,9 @@ class JsonObjDataModel
     const PARAM_TYPE_STRING = 2;
     const PARAM_TYPE_UNSORTED = 3;
 
-    public function __construct($dataModelName)
+    public function __construct($dataModelName = null)
     {
+        $dataModelName =  $dataModelName ?? strtolower(static::class);
         $this->file = new JsonFileAccessModel($dataModelName);
         $this->load();
     }
@@ -103,6 +99,18 @@ class JsonObjDataModel
         foreach ($this->query as $obj) {
             $obj->$param = $new_value;
         }
+    }
+
+    public function changeObjByGuid($guid, $obj)
+    {
+        if (!is_null($this->dataArray[$guid])){
+            foreach ($obj as $param => $value) {
+                $this->dataArray[$guid]->$param = $value;
+            }
+        } else {
+            throw new Error('object not exist');
+        }
+        $this->dataArray[$guid] = $obj;
     }
 
     public function delete()
@@ -206,8 +214,8 @@ class JsonObjDataModel
                 (
                     ($this_param_val === null) ||
                     ($this->dataArray[$arr[$i]]->$param === null
-                )
-            ) xor
+                    )
+                ) xor
                 strcasecmp($this->dataArray[$arr[$i]]->$param, $this_param_val) > 0
             ) {
                 $right_arr[] = $arr[$i];
@@ -255,12 +263,13 @@ class JsonObjDataModel
             if (!$direction_forward) {
                 $this->query = array_reverse($this->query);
             }
+        } else {
+            throw new Error('not ordered field');
         }
         return $this;
     }
 
-    public
-    function limit($limit)
+    public function limit($limit)
     {
         $this->query = array_slice($this->query, 0, $limit);
         return $this;
