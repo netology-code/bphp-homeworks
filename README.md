@@ -20,4 +20,4 @@
 
 ### 3.1. [Работа с исключениями. Заголовки](./3.1-exceptions-and-headers)
 
-### 3.2. PHP7. PSR-*. PHPDOC
+### 3.2. [PHP7. PSR-*. PHPDOC](./3.2-PHP7-PSR-PHPDoc)
