@@ -1,0 +1,9 @@
+.gender-male{
+    color: dodgerblue;
+}
+.gender-female{
+    color: plum;
+}
+.gender-undefined{
+    color: darkgoldenrod;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "soap",
+    "name": "Борщ",
+    "price": 120
+  },
+  {
+    "id": "oatmeal",
+    "name": "Каша овсянная",
+    "price": 50
+  },
+  {
+    "id": "sundae",
+    "name": "Мороженное",
+    "price": 70
+  },
+  {
+    "id": "bread",
+    "name": "Хлеб",
+    "price": 10
+  },
+  {
+    "id": "tea",
+    "name": "Чай",
+    "price": 30
+  },
+  {
+    "id": "cake",
+    "name": "Печенье",
+    "price": 25
+  }
+]

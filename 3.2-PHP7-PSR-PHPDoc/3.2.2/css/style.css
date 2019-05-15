@@ -1,0 +1,27 @@
+.form322, .order322 {
+    padding: 18px 24px;
+    margin: 18px 24px;
+    background: #f1f1f1;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+}
+
+.order322-line {
+    display: flex;
+    height: 44px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed #666;
+}
+
+.order322-title{
+    justify-content: center;
+    font-size: x-large;
+}
+
+.order322-total{
+    display: flex;
+    height: 44px;
+    justify-content: flex-end;
+    font-size: x-large;
+}

@@ -130,7 +130,7 @@ $image = 'img/1.jpg';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bPHP - 1.1.2</title>
+    <title>bPHP - 1.1.0</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
