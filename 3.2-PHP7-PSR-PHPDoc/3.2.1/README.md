@@ -26,7 +26,7 @@
 
 Допускается создание новых файлов в задании.
 
-Использованны Unicode-символы:
+Использованы Unicode-символы:
 - [Венера](https://unicode-table.com/ru/2640/);
 - [Марс](https://unicode-table.com/ru/2642/);
 - [улыбка в солнечных очках](https://unicode-table.com/ru/1F60E/).
