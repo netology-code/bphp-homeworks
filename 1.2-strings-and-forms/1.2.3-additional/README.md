@@ -18,3 +18,6 @@ OUTPUT: `29.05.1993`
 Пример: \
 INPUT: `10536` \
 OUTPUT: `10 536 руб.`
+
+
+**Обратите внимание на** [**рекомендации по сдаче домашнего задания**](https://github.com/netology-code/bphp-homeworks/blob/master/0-sharing/homework/README.md).
