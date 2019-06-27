@@ -21,3 +21,7 @@
 
 ## Пример
 ![](https://i.imgur.com/W5wfX9A.png)
+
+
+
+**Обратите внимание на** [**рекомендации по сдаче домашнего задания**](https://github.com/netology-code/bphp-homeworks/blob/master/0-sharing/homework/README.md).
