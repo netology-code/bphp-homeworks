@@ -65,3 +65,7 @@ function logReserve($row, $place, $result){
 Ваше место забронировано! Ряд 3, место 5
 Что-то пошло не так=( Бронь не удалась
 ```
+
+
+
+**Обратите внимание на** [**рекомендации по сдаче домашнего задания**](https://github.com/netology-code/bphp-homeworks/blob/master/0-sharing/homework/README.md).
