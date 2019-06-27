@@ -60,3 +60,5 @@ $variable = 3.14;
 Выводите не только тип, но и описание типа переменной.
 
 ![](img/readme/1.png)
+
+**Обратите внимание на [рекомендации по сдаче домашнего задания*](https://github.com/netology-code/bphp-homeworks/blob/master/0-sharing/homework/README.md).
