@@ -56,3 +56,6 @@
 Разделить класс `JsonFileAccessModel` на два:
 - `FileAccessModel` - connect(), disconnect(), read() и write(). конструктор принимает как аргумент полный путь к файлу;
 - `JsonFileAccessModel` - дочерний от `FileAccessModel`, поведение остается прежним, но из методов описаны в классе только readJson() и writeJson().
+
+
+**Обратите внимание на** [**рекомендации по сдаче домашнего задания**](https://github.com/netology-code/bphp-homeworks/blob/master/0-sharing/homework/README.md).
