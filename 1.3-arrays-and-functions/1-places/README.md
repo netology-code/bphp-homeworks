@@ -42,7 +42,7 @@
 $chairs = 50;
 $map = generate(5, 8, $chairs);
 $requireRow = 3;
-$requirePlace = 5;
+$requiredPlace = 5;
 
 $reverve = reserve($map, $requireRow, $requiredPlace);
 logReserve($requireRow, $requirePlace, $reverve);
