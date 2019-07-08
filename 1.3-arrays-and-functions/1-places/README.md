@@ -41,14 +41,14 @@
 ```php
 $chairs = 50;
 $map = generate(5, 8, $chairs);
-$requireRow = 3;
+$requiredRow = 3;
 $requiredPlace = 5;
 
-$reverve = reserve($map, $requireRow, $requiredPlace);
-logReserve($requireRow, $requirePlace, $reverve);
+$reverve = reserve($map, $requiredRow, $requiredPlace);
+logReserve($requiredRow, $requiredPlace, $reverve);
 
-$reverve = reserve($map, $requireRow, $requiredPlace);
-logReserve($requireRow, $requirePlace, $reverve);
+$reverve = reserve($map, $requiredRow, $requiredPlace);
+logReserve($requiredRow, $requiredPlace, $reverve);
 
 
 function logReserve($row, $place, $result){
